@@ -72,7 +72,7 @@ Connect to broker ismaillowkey.my.id and publish with topic **wa/group/send** an
 
 
 ## With pm2
-automatic restart app every 1 hour
+automatic start with pm2
 ```
-pm2 start index.js --name "wa-api-mqtt-v7antiban" --cron "0 * * * *"
+pm2 start index.js --name "wa-api-mqtt-v7antiban" 
 ```
